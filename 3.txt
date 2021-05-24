@@ -1,0 +1,88 @@
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/blogs/634541/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/blogs/634541/snow.js"></script>
+<script>
+ $(function(){
+         $(".postTitle span").mouseenter(function(){
+            $(this).clearQueue().animate({
+             marginLeft: "35"
+             }, 400, 'linear',function(){})
+         });
+        $(".postTitle span").mouseleave(function(){
+            $(this).clearQueue().animate({
+             marginLeft: "10"
+             }, 400, 'linear',function(){})
+         });
+              $("#mylink").hover(function() {
+                    $(".submenu").css("display", "block");
+              });
+     });
+
+</script>
+<script>
+    snow.down();
+</script>
+<div id="header">
+	<div id="blogTitle">
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/pengsay/">Peng Say</a>
+</h1>
+<h2 style="line-height: 60px; height: 60px;">I have two not, this one won't, that won't.</h2>
+<a href="https://www.cnblogs.com/pengsay"><h2 id="ownName" style="width: 18%; margin-top:  -40px; margin-left: 1180px;  font-family: '仿宋','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif; font-size: 35px;">LZPの博客</h2></a>		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li>
+<a  class="menu" href="https://i.cnblogs.com/posts/edit">🎄 New</a>
+</li>
+<li>
+<a  class="menu" href="https://www.cnblogs.com/pengsay">🏡 Home</a>
+</li>
+
+<li>
+
+
+</li>
+<li>
+<a class="menu" href="https://msg.cnblogs.com/send/1471591945-lzp/">👨🏻‍🎓 Contact</a></li>
+<li>
+
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<!-- mylink(我的链接) -->
+<li onmouseenter="javascript:$('.submenu').css('display', 'block');" 
+onmouseleave="javascript:$('.submenu').css('display', 'none');">
+<a id="mylink" class="menu" href="javascript:void(0);">🔗 Links</a>
+           <ul class="submenu">
+                   <li> 
+                            <a href="https://blog.csdn.net/qq_43710922">CSDN</a>
+                   </li>
+                    <li> 
+                            <a href="https://www.dreamwings.cn/">千千大佬</a>
+                   </li>
+                   <li> 
+                            <a href="https://www.acwing.com/">AcWing</a>
+                   </li>
+                   <li> 
+                            <a href="https://www.processon.com/">Processon</a>
+                   </li>
+
+                   <li> 
+                            <a href="https://github.com/1471591945">Github</a>
+                   </li>
+                   <li> 
+                            <a href="https://mvnrepository.com/">Maven</a>
+                   </li>
+                   <li> 
+                            <a href="https://leetcode-cn.com/u/mei-you-ni-na-you-wo/">Leetcode</a>
+                   </li>
+           </ul>
+</li>
+<li>
+<a class="menu" href="https://i.cnblogs.com/">🔑 Admin</a>
+</li>
+</ul>
+		<div class="blogStats" style=" margin-top: 60px; margin-right: -170px;">
+                             <div id="blog_stats_place_holder"><script>loadBlogStats();</script></div>
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div>

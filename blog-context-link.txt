@@ -1,0 +1,599 @@
+博客园网站定制代码（有链接）
+
+1、页面定制CSS代码
+/*我*/
+#ownName:hover {
+     color: #e7eaf0;
+}
+
+/*搜索按钮*/
+#widget_my_google {
+     display: none;
+}
+input.btn_my_zzk {
+color: #fff;
+background-color: #2eb1e8;
+border-color: var(--ThemeColor);
+border: 1px;
+padding: 8px;
+border-radius: 2px;
+height: auto !important;
+padding: 8px 12px;
+margin-left: 10px;
+opacity: 0.8;
+}
+
+input.btn_my_zzk:hover{
+      opacity: 1;
+}
+/*搜索框*/
+#q{
+        width: 160px;
+        font-size: 20px;
+        height: 30px;
+}
+
+
+
+
+.lzpTitleSpan {
+     font-size: 27px;
+     font-weight: bold;
+}
+p {
+     font-size: 19px;
+}
+
+/*代码*/
+.cnblogs_code pre {
+      
+}
+
+body{
+   background: url("https://blog-static.cnblogs.com/files/blogs/634541/20210324193748.bmp") no-repeat;
+   background-size: cover;
+   opacity:0.7;
+   background-attachment: fixed;
+}
+#page_begin_html  {
+        width: 1350px;
+         margin: 0 auto;
+}
+#header{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin: 0px;
+   background: url("https://blog-static.cnblogs.com/files/blogs/634541/1489774-20191115181738072-2067895519.bmp") no-repeat;
+}
+.topicListFooter{
+    background-color: #f4f6fa;f
+    width: 100%;
+    text-align: right:
+    margin-top: -10px;
+   margin: 0;
+}
+#navList li a{
+    color:#000;
+    bottom: 0px;
+    height: 50px;
+}
+#navList li a:hover{
+     color: #4C9ED9;
+}
+
+#homepage_top_pager {
+   display: none;
+    margin: 0px;
+     width: 100%;
+}
+#homepage_bottom_pager {
+     width: 100%;
+}
+.pager {
+       background-color: #f4f6fa;
+      margin: 0px;
+      height: 50px;
+     line-height: 50px;
+}
+.pager a {
+   margin-right: 5px;
+   margin-top: 10px;
+   box-shadow: 0 1px 3px #3671a5;
+   background-color: #f4f6fa;
+   color: black;
+}
+/*下一页*/
+#nav_next_page  {
+      width: 100%;
+       background-color: #f4f6fa;
+      margin: 0px;
+      line-height: 50px;
+}
+#nav_next_page a {
+   background-color: #f4f6fa;
+ margin-right: 10px;
+   margin-top: 10px;
+box-shadow: 0 1px 3px #3671a5;
+background-color: #f4f6fa;
+color: black;
+}
+
+#page_begin_html  #header {
+      width: 100%;
+      height: 150px;
+      margin: 0 auto;
+      margin-top: 40px;
+     background-color: #f4f6fa;
+}
+#page_begin_html #blogTitle  {
+      float: left;
+}
+#page_begin_html #blogTitle h1{
+        margin-top: 20px;
+}
+#page_begin_html #blogTitle h1 a{
+      font-size: 50px;
+      font-family: "RocknRoll One";
+      color: black;
+}
+
+.postBody {
+     padding: 0 20px;
+}
+
+#topics {
+      border-radius: 0px;
+      padding: 0px;
+      width: 100%;
+      box-shadow: 0px;
+}
+#comment_form {
+margin-top: -20px;
+padding: 0 20px;
+}
+
+#comment_nav {
+margin-top: 5px;
+margin-right: 25px;
+}
+
+#page_begin_html #blogTitle h1 a:hover{
+     cursor: pointer;
+     color: #21759b;
+}
+#home {
+       width: 1350px;
+      margin: 0 auto;
+     font-size: 15px;
+}
+#home #main{
+      width: 100%;
+}
+#home  #main #mainContent{
+    margin-top:-19px;
+     width: 80%;
+     float: left;
+}
+.forFlow{
+    margin: 0 auto;
+    width:84%;
+}
+#home #main  #sideBar{
+      margin-top:-19px;
+       width: 20%;
+     padding-left: 0px;
+}
+#home #header {
+      display: none;
+      width: 100%;
+}
+#sidebar_news{
+     border-radius: 0px;
+     width: 97%;
+}
+#blog-calendar{
+     width: 98%;
+    margin-left: 2%;
+}
+
+.day {
+    border-radius: 0px;
+    width: 100%;
+    margin: 0px;
+    border: none;
+   padding: 10px;
+   background-color: #f4f6fa;
+}
+.c_b_p_desc {
+     margin-left: 20px;
+}
+
+.postDesc {
+    margin-top:  20px;
+     width: 97%;
+     background: url("https://blog-static.cnblogs.com/files/blogs/634541/posted_time.gif") no-repeat 0 1px;
+    text-align: left;
+   padding-left: 20px;
+   line-height: 1.2;
+}
+
+#blog-calendar {
+     background-color: #f4f6fa;
+}
+.dayTitle {
+     width: 0px;
+     display: none;
+}
+.day::after {
+     left:0px;
+width: 0px;
+    display: none;
+}
+
+#navList a{
+     line-height: 50px;
+}
+.postTitle{
+margin-top: 15px;
+margin-left: 10px;
+border-left: 3px solid #21759b;
+margin-bottom: 10px;
+font-size: 20px;
+float: right;
+width: 99%;
+margin: auto;
+clear: both;
+}
+
+.postTitle span {
+    font-family: "Open Sans","Microsoft Jhenghei","Microsoft Yahei";
+    font-weight:700;
+font-size: 3.1rem;
+    margin-left: 10px;
+    color: #21759b;
+    font-size: 20px;
+   font-weight: 500;
+}
+
+#cb_post_title_url {
+  border-left: none;
+      float: none;
+}
+
+#cb_post_title_url span {
+     font-size: 25px;
+     font-weight: bold;
+     line-height: 1.5:
+}
+
+.postTitl2{
+margin-bottom: 10px;
+font-size: 15px;
+float: right;
+width: 100%;
+clear: both;
+}
+
+.postTitl2 span {
+    margin-left: 10px;
+    color: #21759b;
+    font-size: 20px;
+}
+
+.entrylistPosttitle{
+margin-bottom: 10px;
+font-size: 20px;
+float: right;
+width: 100%;
+clear: both;
+}
+
+.entrylistPosttitle span {
+    margin-left: 10px;
+    color: #21759b;
+    font-size: 25px;
+}
+
+#navList a:hover::after{
+     display: none;
+}
+.entrylist{
+    width: 100%;
+     border-radius: 0px;
+
+}
+#post_detail {
+      width: 100%;
+     border-radius: 0px;
+
+}
+#comment_form{
+width: 100%;
+     border-radius: 0px;
+
+}
+#myposts{
+margin-top: -7px;
+width: 100%;
+     border-radius: 0px;
+}
+
+#blog-comments-placeholder {
+width: 100%;
+     border-radius: 0px;
+}
+
+.entrylistDescription{
+     width: 94%;
+}
+.c_b_p_desc{
+width: 94%;
+}
+.entrylistItemPostDesc {
+width: 94%;
+}
+
+.blogStats span{
+     font-size: 17px;
+    
+}
+
+/*设置放置java代码的div*/
+.cnblogs-markdown .hljs, .cnblogs-post-body .hljs{
+       font-size: 18px !important;
+
+}
+
+#blog-comments-placeholder {
+       background: white;
+       margin-top: -20px;
+       margin-bottom: -32px;
+}
+
+/*评论设置*/
+/*评论引号*/
+.feedbackCon::before {
+        display: none;
+}
+
+.feedbackCon::after {
+        display: none;
+}
+.feedbackListSubtitle {
+      padding: 0 5px;
+}
+.comment_vote {
+     margin-right: -25px;
+}
+
+/*侧边栏头像*/
+#blog-news > img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/*音乐*/
+#music_box {
+     width: 98%;
+    margin-top: 20px;
+     margin-left: -10px;
+}
+#music_box img {
+     margin-left: 70px;
+    max-width: 100%;
+}
+
+/*头*/
+/*左*/
+#navList {
+    margin-left:  -185px;
+    margin-top: 50px;
+}
+/*右*/f
+.blogStats {
+    
+}
+
+/*导航栏*/
+#navList li a:hover {
+    color: white;
+}
+
+/*我的链接*/
+#mylink:hover{
+       
+}
+/*我的子链接*/
+.submenu {
+    border-radius: 5px;
+    background: rgb(230, 230, 230);
+    opacity: 1;
+    display: none;
+    z-index: 999;
+    width: 120px;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+   top: 190px;
+}
+.submenu li {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+}
+--------------------------------------------------------
+2、博客侧边栏公告（支持HTML代码） （支持 JS 代码）
+
+<!-- 侧边栏 -->
+<div id="sideBarMain">
+      <h3 style="border-left: 10px solid rgba(82, 168, 236, 0.8); background: #f5f5f5">&nbsp;&nbsp;公告<span style="text-aligin: center; color: #000; font-size: 20px; font-family: '仿宋'; letter-space: 120px; cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;沙雕鹏</span></h3>
+      
+     <img src="https://blog-static.cnblogs.com/files/blogs/634541/liu.bmp" style="border-radius: 50%; width: 78%; margin-top: 20px; margin-left: 20px;">
+
+      <div id="music_box">
+             <img src="https://files-cdn.cnblogs.com/files/blogs/634541/cute.bmp"/>
+    
+             <embed frameborder="no" marginwidth="0" marginheight="0" src="//music.163.com/outchain/player?type=2&id=29848624&auto=1&height=90" width="270" height="110" border="0">
+       </div>
+</div>
+
+---------------------------------------------------------
+3、页首 HTML 代码
+
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/blogs/634541/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/blogs/634541/snow.js"></script>
+<script>
+ $(function(){
+         $(".postTitle span").mouseenter(function(){
+            $(this).clearQueue().animate({
+             marginLeft: "35"
+             }, 400, 'linear',function(){})
+         });
+        $(".postTitle span").mouseleave(function(){
+            $(this).clearQueue().animate({
+             marginLeft: "10"
+             }, 400, 'linear',function(){})
+         });
+              $("#mylink").hover(function() {
+                    $(".submenu").css("display", "block");
+              });
+     });
+
+</script>
+<script>
+    snow.down();
+</script>
+<div id="header">
+	<div id="blogTitle">
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/pengsay/">Peng Say</a>
+</h1>
+<h2 style="line-height: 60px; height: 60px;">I have two not, this one won't, that won't.</h2>
+<a href="https://www.cnblogs.com/pengsay"><h2 id="ownName" style="width: 18%; margin-top:  -40px; margin-left: 1180px;  font-family: '仿宋','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif; font-size: 35px;">LZPの博客</h2></a>		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li>
+<a  class="menu" href="https://i.cnblogs.com/posts/edit">🎄 New</a>
+</li>
+<li>
+<a  class="menu" href="https://www.cnblogs.com/pengsay">🏡 Home</a>
+</li>
+
+<li>
+
+
+</li>
+<li>
+<a class="menu" href="https://msg.cnblogs.com/send/1471591945-lzp/">👨🏻‍🎓 Contact</a></li>
+<li>
+
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<!-- mylink(我的链接) -->
+<li onmouseenter="javascript:$('.submenu').css('display', 'block');" 
+onmouseleave="javascript:$('.submenu').css('display', 'none');">
+<a id="mylink" class="menu" href="javascript:void(0);">🔗 Links</a>
+           <ul class="submenu">
+                   <li> 
+                            <a href="https://blog.csdn.net/qq_43710922">CSDN</a>
+                   </li>
+                    <li> 
+                            <a href="https://www.bilibili.com/">Bilibili</a>
+                   </li>
+                   <li> 
+                            <a href="https://www.acwing.com/">AcWing</a>
+                   </li>
+                   <li> 
+                            <a href="https://www.processon.com/">Processon</a>
+                   </li>
+
+                   <li> 
+                            <a href="https://github.com/1471591945">Github</a>
+                   </li>
+                   <li> 
+                            <a href="https://mvnrepository.com/">Maven</a>
+                   </li>
+                   <li> 
+                            <a href="https://leetcode-cn.com/u/mei-you-ni-na-you-wo/">Leetcode</a>
+                   </li>
+           </ul>
+</li>
+<li>
+<a class="menu" href="https://i.cnblogs.com/">🔑 Admin</a>
+</li>
+</ul>
+		<div class="blogStats" style=" margin-top: 60px; margin-right: -170px;">
+                             <div id="blog_stats_place_holder"><script>loadBlogStats();</script></div>
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div>
+
+---------------------------------------------------------
+4、页脚HTML代码
+
+<!--页脚Html代码放上这个 -->
+
+<script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript">
+L2Dwidget.init();
+</script>
+
+<!--鼠标特效-->
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript">
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("❤沙雕刘春辉❤","❤学习使我快乐！❤","❤编程使我快乐！❤","❤刘志鹏❤", "❤王坤呆瓜❤", "❤长风破浪会有时❤", "❤直挂云帆济沧海❤");
+        var $i = $("<span></span>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+             "font-size": "24px",
+            "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>
+
+<script>
+    L2Dwidget.init({
+        "model": {
+            jsonPath: "https://unpkg.com/live2d-widget-model-koharu/assets/koharu.model.json",
+            "scale": 1
+        },
+        "display": {
+            "position": "right",
+            "width": 90,
+            "height": 180,
+            "hOffset": 0,
+            "vOffset": -20
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 0.7,
+            "opacityOnHover": 0.2
+        }
+    });
+</script>

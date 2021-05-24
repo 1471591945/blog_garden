@@ -1,0 +1,13 @@
+
+<!-- 侧边栏 -->
+<div id="sideBarMain">
+      <h3 style="border-left: 10px solid rgba(82, 168, 236, 0.8); background: #f5f5f5">&nbsp;&nbsp;公告<span style="text-aligin: center; color: #000; font-size: 20px; font-family: '仿宋'; letter-space: 120px; cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;沙雕鹏</span></h3>
+      
+     <img src="https://blog-static.cnblogs.com/files/blogs/634541/liu.bmp" style="border-radius: 50%; width: 78%; margin-top: 20px; margin-left: 20px;">
+
+      <div id="music_box">
+             <img src="https://files-cdn.cnblogs.com/files/blogs/634541/cute.bmp"/>
+    
+             <embed frameborder="no" marginwidth="0" marginheight="0" src="//music.163.com/outchain/player?type=2&id=1820611924&auto=0&height=90" width="270" height="110" border="0">
+       </div>
+</div>
